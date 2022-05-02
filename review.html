@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title class="font">WoW BAKERY!</title>
+	<link rel="icon" href="images/wow2.png">
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick-theme.css">
+	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+	<script type="text/javascript" src="count.js"></script>	
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<nav class="navbar fixed-top navbar-expand-lg bg-light navbar-light py-0 index">
+		<div class="container">
+			<a href="" class="navbar-brand wow">
+				<span style="color: #FF82AB; font-size: x-large;">Wow</span>
+				<span class="ml-2">BAKERY!</span>
+			</a>
+			<button class="navbar-toggler mx-5" data-toggle="collapse" data-target="#myNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="myNav">
+
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"> <a class="nav-link" href="index.html"> HOME</a> </li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="index.html" data-toggle="dropdown">MENU</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="best seller.html">New Taste</a></li>
+							<li><a class="dropdown-item" href="cake.html" > Cakes<span class="mx-4">&raquo</span></a>
+								<ul class="submenu dropdown-menu">
+									<li><a class="dropdown-item" href="birthdaycake.html">Brithday Cake</a></li>
+									<li><a class="dropdown-item" href="weddingcake.html">Wedding Cake</a></li>
+									<li><a class="dropdown-item" href="macarron.html">Macaron</a></li>
+									<li><a class="dropdown-item" href="cake.html">Other Cakes</a></li>
+
+								</ul>
+							</li>
+							<li><a class="dropdown-item" href="bread.html">Bread</a></li>
+							<li><a class="dropdown-item" href="puffpustry.html">Puff Pastry</a>
+								<li><a class="dropdown-item" href="hamburger.html">Hamburger</a>
+									<li><a class="dropdown-item" href="savorysnacks.html">Savory Snacks</a>
+
+										<li><a class="dropdown-item" href="drink.html">Drips</a>
+										</ul>
+									</li>
+									<li class="nav-item"> <a class="nav-link" href="about.html"> ABOUT </a> </li>
+									<li class="nav-item"> <a class="nav-link" href="contact.html"> CONTACT </a></li>
+									<li class="nav-item"> <a class="nav-link" href="review.html"> REVIEW </a></li>
+									<li class="nav-item"><a href="checkout.html" class="nav-link wo"><i class="fas fa-shopping-basket"></i><span id="item_count"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+	
+	
+	<div class="container" style="margin-top: 80px">	
+		
+		<h1 class="text-center"><strong>Leave your reviews here !<strong></h1>
+	<div class="review_form">
+		<form id="resetForm"> 
+			<div class="form-group" >
+				<label for="name">Name </label> 
+				<input type="text" id="name" class="form-control">
+			</div>	
+			<div class="form-group">
+				<label for="date">Date</label>
+				<input type="date" id="date" class="form-control"> 
+			</div>
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email" id="email" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="phone">Phone</label>
+				<input type="number" id="phone" class="form-control">	
+				<small class="form-text text-capitalize text-muted">We'll never share your email and phone number with anyone else.</small> 
+			</div>
+			<div class="form-group">
+				<label for="comment">Comments </label>
+				<textarea rows="6" id="comment" class="form-control"></textarea>
+			</div>
+				<input type="button" id="submit" class="btn btn-outline" value="Submit">
+		</form>
+		
+	</div>
+		<h1 class="text-center my-5"><b>Reviews</b></h1>
+		
+		
+			<div class="review_comment">
+			<span>Maung Maung</span><br>
+			<span>01/07/2019</span>
+			<p>"I've order a birthday cake from Wow bakery. It was absolutely perfect!! Then, once the cake was cut and everybody started eating, people could not stop talking about how delicious it was! Everyone wanted to know where we got it. Thank you!!"</p>
+			</div>
+			<div id="reviews" style="margin-bottom: 80px"></div>
+		</div>
+		
+	<hr>
+	<div class="container contact py-4">
+		<div class="row">
+			<div class="col-lg-3 px-5">
+				<div class="row">
+					<div class="col-lg-3" style="color: #fe7f9c">
+						<i class="fas fa-truck fa-2x"></i>
+
+					</div>
+					<div class="col-lg-9">
+						<h5>SERVICES</h5>
+						<p class="text-justify">
+							Choose us. We<br>
+							deliver your order.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 px-5">
+				<div class="row">
+					<div class="col-lg-3" style="color: #fe7f9c">
+						<i class="fas fa-map-marker-alt fa-2x"></i>					
+					</div>
+					<div class="col-lg-9">
+						<a href="contact.html" class="text-decoration-none text-dark"><h5>ADDRESS</h5></a>
+						<p class="text-justify">
+							Corner of 32nd,80th <br>
+							Mandalay, Myanmar
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 px-5">
+				<div class="row">
+					<div class="col-lg-3" style="color: #fe7f9c">
+						<i class="far fa-clock fa-2x"></i>
+
+					</div>
+					<div class="col-lg-9">	
+						<h5>OFFICE HOUR</h5>
+						<p class="text-justify">
+							Mon-Fri:9AM-9 PM<br>
+							Sat-Sun:9 AM-4 PM<br>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 px-5">
+				<div class="row">
+					<div class="col-lg-3" style="color: #fe7f9c">
+						<i class="far fa-envelope-open fa-2x"></i>
+					</div>
+					<div class="col-lg-9">
+						<a href="contact.html" class="text-decoration-none text-dark"><h5>CONTACT US</h5></a>
+						<p class="text-justify">
+							+959969514343<br>
+
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- </div> -->
+	<footer class="footer py-3">
+		<div class="container text-dark text-center text-monospace">
+			<p class="m-0">Copyright &copy; All Rights Reversed | Design By &hearts; <a href="" class="text-decoration-none">Bright</a></p>
+		</div>
+	</footer>
+	<script>
+	$(document).ready(function(){
+	count();
+	$(".cart").click(function(){
+		var item_id=$(this).data("id");
+
+		var item_name=$(this).data("name");
+		var item_price=$(this).data("price");
+		var item=$(this).data("item");
+		var shop_item={
+			id:item_id,
+			name:item_name,
+			price:item_price,
+			// item1=item,
+			qty:1,
+		}
+		console.log(item_id,item_name,item_price);
+		var shopString=localStorage.getItem("wowcake_shop");
+		var shopArray;
+
+		if(shopString==null){
+			shopArray=Array();
+
+		}else{
+			shopArray=JSON.parse(shopString);
+		}
+		var status=false;
+
+		$.each(shopArray,function(i,v){
+			if(item_id==v.id){
+				status=true;
+				v.qty++;
+
+			}
+		})
+
+		if(status==false){
+			shopArray.push(shop_item);
+		}
+		
+		var shopData=JSON.stringify(shopArray);
+		localStorage.setItem("wowcake_shop",shopData);
+		count();
+
+		});
+	});
+	</script>
+	
+	
+	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title class="font">WoW BAKERY!</title>
+	<link rel="icon" href="images/wow2.png">
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick-theme.css">
+	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+	<script type="text/javascript" src="count.js"></script>
+	<style>
+		.slider {
+			width: 50%;
+			margin: 100px auto;
+		}
+
+		.autoplay {
+			margin: 0px 20px;
+		}
+
+		.slick-prev:before,
+		.slick-next:before {
+			color: #fe7f9c;
+		}
+
+
+		.autoplay {
+			transition: all ease-in-out .3s;
+			
+		}
+
+		.slick-active {
+			opacity:1;
+		}
+
+	</style>
+</head>
+<body>
+
+	<nav class="navbar fixed-top navbar-expand-lg bg-light navbar-light py-0 index">
+		<div class="container">
+			<a href="" class="navbar-brand wow">
+				<span style="color: #FF82AB; font-size: x-large;">Wow</span>
+				<span class="ml-2">BAKERY!</span>
+			</a>
+			<button class="navbar-toggler mx-5" data-toggle="collapse" data-target="#myNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="myNav">
+
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"> <a class="nav-link" href="index.html"> HOME</a> </li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="index.html" data-toggle="dropdown">MENU</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="best seller.html">New Taste</a></li>
+							<li><a class="dropdown-item" href="cake.html" > Cakes<span class="mx-4">&raquo</span></a>
+								<ul class="submenu dropdown-menu">
+									<li><a class="dropdown-item" href="birthdaycake.html">Brithday Cake</a></li>
+									<li><a class="dropdown-item" href="weddingcake.html">Wedding Cake</a></li>
+									<li><a class="dropdown-item" href="macarron.html">Macaron</a></li>
+									<li><a class="dropdown-item" href="cake.html">Other Cakes</a></li>
+
+								</ul>
+							</li>
+							<li><a class="dropdown-item" href="bread.html">Bread</a></li>
+							<li><a class="dropdown-item" href="puffpustry.html">Puff Pastry</a>
+								<li><a class="dropdown-item" href="hamburger.html">Hamburger</a>
+									<li><a class="dropdown-item" href="savorysnacks.html">Savory Snacks</a>
+
+										<li><a class="dropdown-item" href="drink.html">Drips</a>
+										</ul>
+									</li>
+									<li class="nav-item"> <a class="nav-link" href="about.html"> ABOUT </a> </li>
+									<li class="nav-item"> <a class="nav-link" href="contact.html"> CONTACT </a></li>
+									<li class="nav-item"> <a class="nav-link" href="review.html"> REVIEW </a></li>
+									<li class="nav-item"><a href="checkout.html" class="nav-link wo"><i class="fas fa-shopping-basket"></i><span id="item_count"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+	<br>
+
+					<!-- Best Seller -->
+					<div class="container">
+						<h1 class="text-center mt-5"><b>Savory Snacks</b></h1>
+						<hr class="divider">
+					</div>
+
+
+
+					<!-- add to cart -->
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/cheeseball.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Cheeseball</p>
+										<hr class="item-divider">
+										<p>1000 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="57" data-name="Cheeseball" data-price="1000" data-item="images/cheeseball.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/croissantcheese.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal1" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Croissant Cheese</p>
+										<hr class="item-divider">
+										<p>2500 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="58" data-name="Croissant Cheese" data-price="2500" data-item="images/croissantcheese.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/croissanthamcheese.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal2" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Croissant Ham Cheese</p>
+										<hr class="item-divider">
+										<p>2500 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="59" data-name="Croissant Ham Cheese" data-price="2500" data-item="images/croissanthamcheese.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/croissantplain.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal3" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Croissant Plain</p>
+										<hr class="item-divider">
+										<p>2000 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="60" data-name="Croissant Plain" data-price="2000" data-item="images/croissantplain.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/scroquet.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal4" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Croquet</p>
+										<hr class="item-divider">
+										<p>1000 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="61" data-name="Croquet" data-price="1000" data-item="images/scroquet.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/broodje.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal5" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Broodje</p>
+										<hr class="item-divider">
+										<p>1500 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="62" data-name="Broodje" data-price="1500" data-item="images/broodje.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/broodjemini.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal6" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Broodje Mini</p>
+										<hr class="item-divider">
+										<p>1500 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="63" data-name="Broodje Mini" data-price="1500" data-item="images/broodjemini.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/cheeseball1.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal7" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Cheeseball</p>
+										<hr class="item-divider">
+										<p>1000 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="64" data-name="Cheeseball" data-price="1000" data-item="images/cheeseball1.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/pastechi.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal8" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Pastechi</p>
+										<hr class="item-divider">
+										<p>1500 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="sa1" data-name="Pastechi" data-price="1500" data-item="images/pastechi.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/smallpastechi.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal9" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Small Pastechi</p>
+										<hr class="item-divider">
+										<p>1500 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="sa2" data-name="Small Pastechi" data-price="1500" data-item="images/smallpastechi.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/snackbox.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal10" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Snack Box</p>
+										<hr class="item-divider">
+										<p>5000 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="sa3" data-name="Snack Box" data-price="5000" data-item="images/snackbox.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/soesjesplain.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal11" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Soesjes Plain</p>
+										<hr class="item-divider">
+										<p>2500 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="sa4" data-name="Soesjes Plain" data-price="2500" data-item="images/soesjesplain.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/vleesbroodje.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal12" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Vleesbroodje</p>
+										<hr class="item-divider">
+										<p>2500 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="sa5" data-name="Vleesbroodje" data-price="2500" data-item="images/vleesbroodje.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/weboyena.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal13" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Webo Yena</p>
+										<hr class="item-divider">
+										<p>2000 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="sa6" data-name="We Yena" data-price="2000" data-item="images/weboyena.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/polvorosacookie.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal14" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Polvorosa Cookie</p>
+										<hr class="item-divider">
+										<p>3000 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="sa7" data-name="Polvorosa Cookie" data-price="3000" data-item="images/polvorosacookie.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+
+<!-- Detail Modal -->
+
+					<div class="modal fade" id="detailModal">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/cheeseball.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4><br>
+												<p>Item Name: Cheeseball</p>
+												<p>Item Price: 1000 MMK</p>
+												<p>Category: Savory Snack</p>
+												<p>Ingredients: Chilli Powder,Beef,Salt</p><br>
+												
+												<!-- <button class="btn btn-outline-secondary" id="buy" data-dismiss="modal">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="57" data-name="Cheeseball" data-price="1000" data-item="images/cheeseball.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="modal fade" id="detailModal1">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/croissantcheese.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4><br>
+												<p>Item Name: Croissant Cheese</p>
+												<p>Item Price: 2500 MMK</p>
+												<p>Category: Savory Snack</p>
+												<p>Ingredients: Chilli Powder,Beef,Salt</p><br>
+												
+												<!-- <button class="btn btn-outline-secondary" id="buy1" data-dismiss="modal">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="58" data-name="Croissant Cheese" data-price="2500" data-item="images/croissantcheese.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="modal fade" id="detailModal2">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/croissanthamcheese.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4><br>
+												<p>Item Name: Croissant Ham Cheese</p>
+												<p>Item Price: 2500 MMK</p>
+												<p>Category: Savory Snack</p><p>Ingredients: Chilli Powder,Beef,Salt</p><br>
+												
+												<!-- <button class="btn btn-outline-secondary" id="buy2" data-dismiss="modal">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="59" data-name="Croissant Ham Cheese" data-price="2500" data-item="images/croissanthamcheese.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="modal fade" id="detailModal3">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/croissantplain.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4><br>
+												<p>Item Name: Croissant Plain</p>
+												<p>Item Price: 2000 MMK</p>
+												<p>Category: Savory Snack</p><p>Ingredients: Chilli Powder,Beef,Salt</p><br>
+												
+												<!-- <button class="btn btn-outline-secondary" id="buy3" data-dismiss="modal">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="60" data-name="Croissant Plain" data-price="2000" data-item="images/croissantplain.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="modal fade" id="detailModal4">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/scroquet.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4><br>
+												<p>Item Name: Croquet</p>
+												<p>Item Price: 1000 MMK</p>
+												<p>Category: Savory Snack</p><p>Ingredients: Chilli Powder,Beef,Salt</p><br>
+												
+												<!-- <button class="btn btn-outline-secondary" id="buy4" data-dismiss="modal">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="61" data-name="Savory Snack" data-price="1000" data-item="images/scroquet.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="modal fade" id="detailModal5">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/broodje.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4><br>
+												<p>Item Name: Broodje</p>
+												<p>Item Price: 1500 MMK</p>
+												<p>Category: Savory Snack</p><p>Ingredients: Chilli Powder,Beef,Salt</p><br>
+												
+												<!-- <button class="btn btn-outline-secondary" id="buy5" data-dismiss="modal">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="62" data-name="Broodje" data-price="1500" data-item="images/broodje.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="modal fade" id="detailModal6">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/broodjemini.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4><br>
+												<p>Item Name: Broodje Mini</p>
+												<p>Item Price: 1500 MMK</p>
+												<p>Category: Savory Snack</p><p>Ingredients: Chilli Powder,Beef,Salt</p><br>
+												
+												<!-- <button class="btn btn-outline-secondary" id="buy6" data-dismiss="modal">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="63" data-name="Broodje Mini" data-price="1500" data-item="images/broodjemini.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="modal fade" id="detailModal7">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/cheeseball1.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4><br>
+												<p>Item Name: Cheeseball</p>
+												<p>Item Price: 1000 MMK</p>
+												<p>Category: Savory Snack</p><p>Ingredients: Chilli Powder,Beef,Salt</p><br>
+												
+												<!-- <button class="btn btn-outline-secondary" id="buy7" data-dismiss="modal">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="64" data-name="Cheeseball" data-price="1000" data-item="images/cheeseball.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="modal fade" id="detailModal8">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/pastechi.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4><br>
+												<p>Item Name: Pastechi</p>
+												<p>Item Price: 1500 MMK</p>
+												<p>Category: Savory Snack</p><p>Ingredients: Chilli Powder,Beef,Salt</p><br>
+												
+												<!-- <button class="btn btn-outline-secondary">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="sa1" data-name="Pastechi" data-price="1500" data-item="images/pastechi.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="modal fade" id="detailModal9">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/smallpastechi.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4><br>
+												<p>Item Name: Small Pastechi</p>
+												<p>Item Price: 1500 MMK</p>
+												<p>Category: Savory Snack</p><p>Ingredients: Chilli Powder,Beef,Salt</p><br>
+												
+												<!-- <button class="btn btn-outline-secondary">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="sa2" data-name="Small Pastechi" data-price="1500" data-item="images/smallpastechi.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="modal fade" id="detailModal10">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/snackbox.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4><br>
+												<p>Item Name: Snack Box</p>
+												<p>Item Price: 5000 MMK</p>
+												<p>Category: Savory Snack</p><p>Ingredients: Chilli Powder,Beef,Salt</p><br>
+												
+												<!-- <button class="btn btn-outline-secondary">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="sa3" data-name="Snack Box" data-price="5000" data-item="images/snackbox.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+					<div class="modal fade" id="detailModal11">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/soesjesplain.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4><br>
+												<p>Item Name: Soesjes Plain</p>
+												<p>Item Price: 2500 MMK</p>
+												<p>Category: Savory Snack</p><p>Ingredients: Chilli Powder,Beef,Salt</p><br>
+												
+												<!-- <button class="btn btn-outline-secondary">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="sa4" data-name="Soesjes Plain" data-price="2500" data-item="images/soesjesplain.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="modal fade" id="detailModal12">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/vleesbroodje.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4><br>
+												<p>Item Name: Vleesbroodje</p>
+												<p>Item Price: 2500 MMK</p>
+												<p>Category: Savory Snack</p><p>Ingredients: Chilli Powder,Beef,Salt</p><br>
+												
+												<!-- <button class="btn btn-outline-secondary">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="sa5" data-name="Vleesbroodje" data-price="2500" data-item="images/vleesbroodje.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="modal fade" id="detailModal13">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/weboyena.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4><br>
+												<p>Item Name: Webo Yena</p>
+												<p>Item Price: 2000 MMK</p>
+												<p>Category: Savory Snack</p><p>Ingredients: Chilli Powder,Beef,Salt</p><br>
+												
+												<!-- <button class="btn btn-outline-secondary">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="sa6" data-name="Webo Yena" data-price="2000" data-item="images/weboyena.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<div class="modal fade" id="detailModal14">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/polvorosacookie.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4><br>
+												<p>Item Name: Polvorosa Cookie</p>
+												<p>Item Price: 3000 MMK</p>
+												<p>Category: Savory Snack</p><p>Ingredients: Chilli Powder,Beef,Salt</p><br>
+												
+												<!-- <button class="btn btn-outline-secondary">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="sa7" data-name="Polvorosa Cookie" data-price="3000" data-item="images/polvorosacookie.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>					
+<hr>
+<div class="container contact py-4">
+	<div class="row">
+		<div class="col-md-3 px-5">
+			<div class="row">
+				<div class="col-md-3" style="color: #fe7f9c">
+					<i class="fas fa-truck fa-2x"></i>
+
+				</div>
+				<div class="col-md-9">
+					<h5>SERVICES</h5>
+					<p class="text-justify">
+						Choose us. We<br>
+						deliver your order.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 px-5">
+			<div class="row">
+				<div class="col-md-3" style="color: #fe7f9c">
+					<i class="fas fa-map-marker-alt fa-2x"></i>					
+				</div>
+				<div class="col-md-9">
+					<a href="contact.html" class="text-decoration-none text-dark"><h5>ADDRESS</h5></a>
+					<p class="text-justify">
+						Corner of 32nd,80th <br>
+						Mandalay, Myanmar
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 px-5">
+			<div class="row">
+				<div class="col-md-3" style="color: #fe7f9c">
+					<i class="far fa-clock fa-2x"></i>
+
+				</div>
+				<div class="col-md-9">	
+					<h5>OFFICE HOUR</h5>
+					<p class="text-justify">
+						Mon-Fri:9AM-9 PM<br>
+						Sat-Sun:9 AM-4 PM<br>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 px-5">
+			<div class="row">
+				<div class="col-md-3" style="color: #fe7f9c">
+					<i class="far fa-envelope-open fa-2x"></i>
+				</div>
+				<div class="col-md-9">
+					<a href="contact.html" class="text-decoration-none text-dark"><h5>CONTACT US</h5></a>
+					<p class="text-justify">
+						+959969514343<br>
+
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- </div> -->
+<footer class="footer py-3">
+	<div class="container text-dark text-center text-monospace">
+		<p class="m-0">Copyright &copy; All Rights Reversed | Design By &hearts; <a href="" class="text-decoration-none">Bright</a></p>
+	</div>
+</footer>
+
+				<script>
+						$(document).ready(function(){
+							count();
+							$(".cart").click(function(){
+								var item_id=$(this).data("id");
+
+								var item_name=$(this).data("name");
+								var item_price=$(this).data("price");
+								var item=$(this).data("item");
+								var shop_item={
+									id:item_id,
+									name:item_name,
+									price:item_price,
+									item:item,
+			// item1=item,
+			qty:1,
+		}
+		console.log(item_id,item_name,item_price);
+		var shopString=localStorage.getItem("wowcake_shop");
+		var shopArray;
+
+		if(shopString==null){
+			shopArray=Array();
+
+		}else{
+			shopArray=JSON.parse(shopString);
+		}
+		var status=false;
+
+		$.each(shopArray,function(i,v){
+			if(item_id==v.id){
+				status=true;
+				v.qty++;
+
+			}
+		})
+
+		if(status==false){
+			shopArray.push(shop_item);
+		}
+		
+		var shopData=JSON.stringify(shopArray);
+		localStorage.setItem("wowcake_shop",shopData);
+		count();
+
+		
+	})
+							$("#buy").click(function(){
+								var ans=confirm("Are you sure order!");
+								if(ans){
+				// localStorage.clear();
+				alert("Your order is successful");
+				getData();
+				count();
+			}
+
+		})
+							$("#buy1").click(function(){
+								var ans=confirm("Are you sure order!");
+								if(ans){
+			// localStorage.clear();
+			alert("Your order is successful");
+			getData();
+			count();
+		}
+	})
+							$("#buy2").click(function(){
+								var ans=confirm("Are you sure order!");
+								if(ans){
+		// 		// localStorage.clear();
+		alert("Your order is successful");
+		getData();
+		count();
+	}
+})
+							$("#buy3").click(function(){
+								var ans=confirm("Are you sure order!");
+								if(ans){
+		// 		// localStorage.clear();
+		alert("Your order is successful");
+		getData();
+		count();
+	}
+})
+							$("#buy4").click(function(){
+								var ans=confirm("Are you sure order!");
+								if(ans){
+		// 		// localStorage.clear();
+		alert("Your order is successful");
+		getData();
+		count();
+	}
+})
+							$("#buy5").click(function(){
+								var ans=confirm("Are you sure order!");
+								if(ans){
+		// 		// localStorage.clear();
+		alert("Your order is successful");
+		getData();
+		count();
+	}
+})
+							$("#buy6").click(function(){
+								var ans=confirm("Are you sure order!");
+								if(ans){
+		// 		// localStorage.clear();
+		alert("Your order is successful");
+		getData();
+		count();
+	}
+})
+							$("#buy7").click(function(){
+								var ans=confirm("Are you sure order!");
+								if(ans){
+		// 		// localStorage.clear();
+		alert("Your order is successful");
+		getData();
+		count();
+	}
+})
+							$("#buy8").click(function(){
+								var ans=confirm("Are you sure order!");
+								if(ans){
+		// 		// localStorage.clear();
+		alert("Your order is successful");
+		getData();
+		count();
+	}
+})
+
+
+						})
+					</script>
+
+
+
+
+
+
+
+
+					<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js">
+					</script>
+					<script type="text/javascript" src="slick-master/slick/slick.js"></script>
+				</body>
+				</html>

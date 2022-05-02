@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title class="font">WoW BAKERY!</title>
+	<link rel="icon" href="images/wow2.png">
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick-theme.css">
+	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+	<script type="text/javascript" src="count.js"></script>
+	
+
+</head>
+<body>
+	<nav class="navbar fixed-top navbar-expand-lg bg-light navbar-light py-0 index">
+		<div class="container">
+			<a href="" class="navbar-brand wow">
+				<span style="color: #FF82AB; font-size: x-large;">Wow</span>
+				<span class="ml-2">BAKERY!</span>
+			</a>
+			<button class="navbar-toggler mx-5" data-toggle="collapse" data-target="#myNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="myNav">
+
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"> <a class="nav-link" href="index.html"> HOME</a> </li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="index.html" data-toggle="dropdown">MENU</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="best seller.html">New Taste</a></li>
+							<li><a class="dropdown-item" href="cake.html" > Cakes<span class="mx-4">&raquo</span></a>
+								<ul class="submenu dropdown-menu">
+									<li><a class="dropdown-item" href="birthdaycake.html">Brithday Cake</a></li>
+									<li><a class="dropdown-item" href="weddingcake.html">Wedding Cake</a></li>
+									<li><a class="dropdown-item" href="macarron.html">Macaron</a></li>
+									<li><a class="dropdown-item" href="cake.html">Other Cakes</a></li>
+
+								</ul>
+							</li>
+							<li><a class="dropdown-item" href="bread.html">Bread</a></li>
+							<li><a class="dropdown-item" href="puffpustry.html">Puff Pastry</a>
+								<li><a class="dropdown-item" href="hamburger.html">Hamburger</a>
+									<li><a class="dropdown-item" href="savorysnacks.html">Savory Snacks</a>
+
+										<li><a class="dropdown-item" href="drink.html">Drips</a>
+										</ul>
+									</li>
+									<li class="nav-item"> <a class="nav-link" href="about.html"> ABOUT </a> </li>
+									<li class="nav-item"> <a class="nav-link" href="contact.html"> CONTACT </a></li>
+									<li class="nav-item"> <a class="nav-link" href="review.html"> REVIEW </a></li>
+									<li class="nav-item"><a href="checkout.html" class="nav-link wo"><i class="fas fa-shopping-basket"></i><span id="item_count"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+	<br><br><br>
+	<div class="container py-5">
+	<table border="1" cellpadding="10" cellspacing="0" class="table  table-responsive-sm table-bordered table-hover ">
+		<thead class="title text-center">
+			<tr class="text-center">
+				
+				<th scope="col">Item</th>
+				<th scope="col">Item Name</th>
+				<th scope="col">Item Price</th>
+				<th scope="col">Qty</th>
+				<th scope="col">Sub Total</th>
+			</tr>
+		</thead>
+		<tbody class="table-danger">
+			
+		</tbody>
+	</table>
+	
+	<br><br>
+	<!-- <button id="remove" class="btn btn-dark mr-3">Remove</button> -->
+	<button id="order" class="btn btn-dark px-4">Order</button>
+	</div>
+
+	<hr class="mt-6">
+<div class="container contact py-4 mt-4">
+	<div class="row">
+		<div class="col-md-3 px-5">
+			<div class="row">
+				<div class="col-md-3" style="color: #fe7f9c">
+					<i class="fas fa-truck fa-2x"></i>
+
+				</div>
+				<div class="col-md-9">
+					<h5>SERVICES</h5>
+					<p class="text-justify">
+						Choose us. We<br>
+						deliver your order.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 px-5">
+			<div class="row">
+				<div class="col-md-3" style="color: #fe7f9c">
+					<i class="fas fa-map-marker-alt fa-2x"></i>					
+				</div>
+				<div class="col-md-9">
+					<a href="contact.html" class="text-decoration-none text-dark"><h5>ADDRESS</h5></a>
+					<p class="text-justify">
+						Corner of 32nd,80th <br>
+						Mandalay, Myanmar
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 px-5">
+			<div class="row">
+				<div class="col-md-3" style="color: #fe7f9c">
+					<i class="far fa-clock fa-2x"></i>
+
+				</div>
+				<div class="col-md-9">	
+					<h5>OFFICE HOUR</h5>
+					<p class="text-justify">
+						Mon-Fri:9AM-9 PM<br>
+						Sat-Sun:9 AM-4 PM<br>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 px-5">
+			<div class="row">
+				<div class="col-md-3" style="color: #fe7f9c">
+					<i class="far fa-envelope-open fa-2x"></i>
+				</div>
+				<div class="col-md-9">
+					<a href="contact.html" class="text-decoration-none text-dark"><h5>CONTACT US</h5></a>
+					<p class="text-justify">
+						+959969514343<br>
+
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- </div> -->
+<footer class="footer py-3 mt-2">
+	<div class="container text-dark text-center text-monospace">
+		<p class="m-0">Copyright &copy; All Rights Reversed | Design By &hearts; <a href="" class="text-decoration-none">Bright</a></p>
+	</div>
+</footer>
+	
+	<script>
+		$(document).ready(function(){
+			getData();
+
+			function getData(){
+				var shopString=localStorage.getItem("wowcake_shop");
+
+			if(shopString){
+				var shopArray=JSON.parse(shopString);
+				var html='';
+				var no=1;
+				var total=0;
+				$.each(shopArray,function(i,v){
+					var id=v.id;
+					var item=v.item;
+					var name=v.name;
+					var price=v.price;
+					var qty=v.qty;
+					
+					// console.log(name,price,qty);
+					html+=`<tr>
+							
+								<td class="text-center"><img src="${item}" width="80" height="50"></td>
+
+
+								<td class="text-center">${name}</td>
+								<td class="text-center" >${price}</td>
+								<td class="text-center"><button class="min btn btn-outline-secondary btn-sm mx-2" data-item_i="${i}">-</button>${qty}<button class="max btn btn-outline-secondary btn-sm mx-2" data-item_i="${i}">+</button></td>
+								<td class="text-center">${price*qty}</td></tr>`;
+								total+=price*qty;
+
+
+
+				});
+				html+=`<tr class="text-center"><th colspan="4">Total</th><th>${total}</th></tr>`;			
+							$("tbody").html(html);
+			}else{
+					html='';
+					$("tbody").html(html);
+
+				}
+				count();
+
+			}
+			$("tbody").on('click','.max',function(){
+				var item_i=$(this).data('item_i');
+				//alert (item_i);
+				var shopString=localStorage.getItem("wowcake_shop");
+				if(shopString){
+					var shopArray=JSON.parse(shopString);
+					$.each(shopArray,function(i,v){
+						if(item_i==i){
+							v.qty++;
+
+						}
+
+						var shopData=JSON.stringify(shopArray);
+						localStorage.setItem("wowcake_shop",shopData);
+						getData();
+					})
+				}
+			
+
+			});
+			$("tbody").on('click','.min',function(){
+				var item_i=$(this).data('item_i');
+				//alert (item_i);
+				var shopString=localStorage.getItem("wowcake_shop");
+				if(shopString){
+					var shopArray=JSON.parse(shopString);
+					$.each(shopArray,function(i,v){
+						if(item_i==i){
+							v.qty--;
+
+							if(v.qty==0){
+								shopArray.splice(item_i,1);
+							}
+
+						}
+						
+						var shopData=JSON.stringify(shopArray);
+						localStorage.setItem("wowcake_shop",shopData);
+						getData();
+
+					})
+				}
+
+
+
+			})
+			$("#order").click(function(){
+				var ans=confirm("Are you sure order!");
+				if(ans){
+					localStorage.clear();
+					alert("Your order is successful")
+					getData();
+					count();
+				}
+			});
+			$("#remove").click(function(){
+				var ans=confirm("Are you sure want to remove your order!");
+				if(ans){
+					localStorage.clear();
+					getData();
+					count();
+				}
+			});
+
+		})
+
+	</script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="slick-master/slick/slick.js"></script>
+
+</body>
+</html>

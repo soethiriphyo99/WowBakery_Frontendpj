@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title class="font">WoW BAKERY!</title>
+	<link rel="icon" href="images/wow2.png">
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick-theme.css">
+	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+	<script type="text/javascript" src="count.js"></script>
+
+	<style>
+		.slider {
+			width: 50%;
+			margin: 100px auto;
+		}
+
+		.autoplay {
+			margin: 0px 20px;
+		}
+
+		.slick-prev:before,
+		.slick-next:before {
+			color: #fe7f9c;
+		}
+
+
+		.autoplay {
+			transition: all ease-in-out .3s;
+			
+		}
+
+		.slick-active {
+			opacity:1;
+		}
+
+	</style>
+</head>
+<body>
+
+	<nav class="navbar fixed-top navbar-expand-lg bg-light navbar-light py-0 index">
+		<div class="container">
+			<a href="" class="navbar-brand wow">
+				<span style="color: #FF82AB; font-size: x-large;">Wow</span>
+				<span class="ml-2">BAKERY!</span>
+			</a>
+			<button class="navbar-toggler mx-5" data-toggle="collapse" data-target="#myNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="myNav">
+
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"> <a class="nav-link" href="index.html"> HOME</a> </li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="index.html" data-toggle="dropdown">MENU</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="best seller.html">New Taste</a></li>
+							<li><a class="dropdown-item" href="cake.html" > Cakes<span class="mx-4">&raquo</span></a>
+								<ul class="submenu dropdown-menu">
+									<li><a class="dropdown-item" href="birthdaycake.html">Brithday Cake</a></li>
+									<li><a class="dropdown-item" href="weddingcake.html">Wedding Cake</a></li>
+									<li><a class="dropdown-item" href="macarron.html">Macaron</a></li>
+									<li><a class="dropdown-item" href="cake.html">Other Cakes</a></li>
+
+								</ul>
+							</li>
+							<li><a class="dropdown-item" href="bread.html">Bread</a></li>
+							<li><a class="dropdown-item" href="puffpustry.html">Puff Pastry</a>
+								<li><a class="dropdown-item" href="hamburger.html">Hamburger</a>
+									<li><a class="dropdown-item" href="savorysnacks.html">Savory Snacks</a>
+
+										<li><a class="dropdown-item" href="drink.html">Drips</a>
+										</ul>
+									</li>
+									<li class="nav-item"> <a class="nav-link" href="about.html"> ABOUT </a> </li>
+									<li class="nav-item"> <a class="nav-link" href="contact.html"> CONTACT </a></li>
+									<li class="nav-item"> <a class="nav-link" href="review.html"> REVIEW </a></li>
+									<li class="nav-item"><a href="checkout.html" class="nav-link wo"><i class="fas fa-shopping-basket"></i><span id="item_count"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+
+			<br>
+
+	<div class="container">
+			<h1 class="text-center my-6"><b>New Taste</b></h1>
+			<hr class="divider">
+		</div>
+	
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/chocolatecake.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Chocolate Cake</p>
+										<hr class="item-divider">
+										<p>4500 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="29" data-name="Chocolate Cake" data-price="4500" data-item="images/chocolatecake.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/bd3.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal1" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Bithday Cake</p>
+										<hr class="item-divider">
+										<p>15000 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="3" data-name="Bithday Cake" data-price="15000" data-item="images/bd3.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/wd9.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal2" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Wedding Cake</p>
+										<hr class="item-divider">
+										<p>70000 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="e" data-name="Wedding Cake" data-price="70000" data-item="images/wd9.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/strawberrycake.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal3" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Strawberry Cake</p>
+										<hr class="item-divider">
+										<p>4000 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="ck3" data-name="Strawberry Cake" data-price="4000" data-item="images/strawberrycake.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/fruitpustry.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal4" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Fruit Pastry</p>
+										<hr class="item-divider">
+										<p>2000 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="48" data-name="Fruit Pastry" data-price="2000" data-item="images/fruitpustry.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 col-sm-6 my-3">
+								<div class="card">
+									
+									<div class="card_img">
+										<img src="images/gezond.jpg" class="card-img-top border-bottom image">
+										<div class="view-detail" data-target="#detailModal5" data-toggle="modal">
+											<span class="fa-stack fa-lg">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+											</span>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										
+										<p>Gezond</p>
+										<hr class="item-divider">
+										<p>3000 MMK</p>
+										<button class="btn btn-outline-secondary btn-block cart" data-id="49" data-name="Gezond" data-price="3000" data-item="images/gezond.jpg">Add To Cart</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+
+
+
+					<!-- detail model -->
+					<div class="modal fade" id="detailModal">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/chocolatecake.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4>
+												<br>
+
+												<p>Item Name:Chocolate Cake</p>
+												<p>Item Price:4500 MMK</p>
+												<p>Category:Cakes</p>
+												<p>Flavour:Strawberry,Chocolate,Butter</p>
+												<br>
+												
+												<!-- <button class="btn btn-outline-secondary" id ="buy" data-dismiss="modal">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="29" data-name="Chocolate Cake" data-price="4500" data-item="images/chocolatecake.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" id="close" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="modal fade" id="detailModal1">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/bd3.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+											
+												<h4>Item Informations</h4>
+												<br>
+												
+												<p>Item Name:Birthday Cake</p>
+												<p>Item Price:15000 MMK</p>
+												<p>Category:Birthday Cakes</p>
+												<p>Flavour:Strawberry,Chocolate,Butter</p>
+												<br>
+												
+												<!-- <button class="btn btn-outline-secondary" data-dismiss="modal" id ="buy2">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="3" data-name="Birthday Cake" data-price="15000" data-item="images/bd3.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal" id="close">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="modal fade" id="detailModal2">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/wd9.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4>
+												<br><p>Item Name:Wedding Cake</p>
+												<p>Item Price:70000 MMK</p>
+												<p>Category:Wedding Cakes</p>
+												<p>Flavour:Strawberry,Chocolate,Butter</p>
+												<br>
+												<!-- <button class="btn btn-outline-secondary" data-dismiss="modal" id="buy3">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="q" data-name="Wedding Cake" data-price="70000" data-item="images/wd9.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" id="close" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="modal fade" id="detailModal3">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/strawberrycake.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4>
+												<br><p>Item Name:Strawberry Cake</p>
+												<p>Item Price:4000 MMK</p>
+												<p>Category:Cakes</p>
+												<p>Flavour:Strawberry,Chocolate,Butter</p>
+												<br>
+												<!-- <button class="btn btn-outline-secondary" data-dismiss="modal" id="buy4">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="ck3" data-name="Strawberry Cake" data-price="4000" data-item="images/strawberrycake.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" id="close" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="modal fade" id="detailModal4">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/fruitpustry.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4>
+												<br><p>Item Name:Fruit Pastry</p>
+												<p>Item Price:2000 MMK</p>
+												<p>Category:Puff Pastry</p>
+												<p>Flavour:Strawberry,Chocolate,Butter</p>
+												<br>
+												<!-- <button class="btn btn-outline-secondary" data-dismiss="modal" id="buy5">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="48" data-name="Fruit Pastry" data-price="2000" data-item="images/fruitpustry.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" id="close" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="modal fade" id="detailModal5">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3>Item Detail</h3>
+									<button class="close" data-dismiss="modal">
+										<span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<img src="images/gezond.jpg" class="img-fluid">
+											</div>
+											<div class="col-md-6">
+												<h4>Item Informations</h4>
+												<br><p>Item Name:Gezond</p>
+												<p>Item Price:3000 MMK</p>
+												<p>Category:Hamburger</p>
+												<p>Flavour:Strawberry,Chocolate,Butter</p>
+												<br>
+												<!-- <button class="btn btn-outline-secondary" data-dismiss="modal" id="buy6">Buy Now</button> -->
+												<button class="btn btn-outline-secondary cart" data-id="49" data-name="Gezond" data-price="3000" data-item="images/gezond.jpg">Add to Cart</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+	<br>
+						
+
+<hr>
+<div class="container contact py-4">
+	<div class="row">
+		<div class="col-md-3 px-5">
+			<div class="row">
+				<div class="col-md-3" style="color: #fe7f9c">
+					<i class="fas fa-truck fa-2x"></i>
+
+				</div>
+				<div class="col-md-9">
+					<h5>SERVICES</h5>
+					<p class="text-justify">
+						Choose us. We<br>
+						deliver your order.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 px-5">
+			<div class="row">
+				<div class="col-md-3" style="color: #fe7f9c">
+					<i class="fas fa-map-marker-alt fa-2x"></i>					
+				</div>
+				<div class="col-md-9">
+					<a href="contact.html" class="text-decoration-none text-dark"><h5>ADDRESS</h5></a>
+					<p class="text-justify">
+						Corner of 32nd,80th <br>
+						Mandalay, Myanmar
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 px-5">
+			<div class="row">
+				<div class="col-md-3" style="color: #fe7f9c">
+					<i class="far fa-clock fa-2x"></i>
+
+				</div>
+				<div class="col-md-9">	
+					<h5>OFFICE HOUR</h5>
+					<p class="text-justify">
+						Mon-Fri:9AM-9 PM<br>
+						Sat-Sun:9 AM-4 PM<br>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 px-5">
+			<div class="row">
+				<div class="col-md-3" style="color: #fe7f9c">
+					<i class="far fa-envelope-open fa-2x"></i>
+				</div>
+				<div class="col-md-9">
+					<a href="contact.html" class="text-decoration-none text-dark"><h5>CONTACT US</h5></a>
+					<p class="text-justify">
+						+959969514343<br>
+
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- </div> -->
+<footer class="footer py-3">
+	<div class="container text-dark text-center text-monospace">
+		<p class="m-0">Copyright &copy; All Rights Reversed | Design By &hearts; <a href="" class="text-decoration-none">Bright</a></p>
+	</div>
+</footer>
+
+<script>
+						$(document).ready(function(){
+							count();
+							$(".cart").click(function(){
+								var item_id=$(this).data("id");
+
+								var item_name=$(this).data("name");
+								var item_price=$(this).data("price");
+								var item=$(this).data("item");
+								var shop_item={
+									id:item_id,
+									name:item_name,
+									price:item_price,
+									item:item,
+			// item1=item,
+			qty:1,
+		}
+		console.log(item_id,item_name,item_price);
+		var shopString=localStorage.getItem("wowcake_shop");
+		var shopArray;
+
+		if(shopString==null){
+			shopArray=Array();
+
+		}else{
+			shopArray=JSON.parse(shopString);
+		}
+		var status=false;
+
+		$.each(shopArray,function(i,v){
+			if(item_id==v.id){
+				status=true;
+				v.qty++;
+
+			}
+		})
+
+		if(status==false){
+			shopArray.push(shop_item);
+		}
+		
+		var shopData=JSON.stringify(shopArray);
+		localStorage.setItem("wowcake_shop",shopData);
+		count();
+
+		});
+	});
+	</script>						
+<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
